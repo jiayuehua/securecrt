@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings CompactMode="1">
+	<CommandBars Schema="33">
+		<CommandBars>
+			<CommandBar Class="CXTPMenuBar" Type="0" BarID="1" Title="菜单栏" MRUWidth="32767" ResourceId="128">
+				<Controls>
+					<Control Class="CXTPControlPopup" Type="2" Caption="文件(&amp;F)" CommandBarId="16777216"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="编辑(&amp;E)" CommandBarId="16777218"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="查看(&amp;V)" CommandBarId="16777219"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="选项(&amp;O)" CommandBarId="16777221"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="传输(&amp;T)" CommandBarId="16777222"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="脚本(&amp;S)" CommandBarId="16777223"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="工具(&amp;L)" CommandBarId="16777224"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="帮助(&amp;H)" CommandBarId="16777225"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777216" Style="4194304" Title="文件(F)">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32816" Caption="连接(&amp;C)..." TooltipText="连接" DescriptionText="连接到远程主机" ShortcutTextAuto="Alt+C"/>
+					<Control Class="CXTPControlButton" Id="32897" Caption="快速连接(&amp;Q)..." TooltipText="快速连接" DescriptionText="快速连接到远程主机" ShortcutTextAuto="Alt+Q"/>
+					<Control Class="CXTPControlButton" Id="32949" Caption="在标签页中连接(&amp;B)..." TooltipText="在标签中连接" DescriptionText="在一个标签中连接到远程主机" ShortcutTextAuto="Alt+B"/>
+					<Control Class="CXTPControlButton" Id="32877" BeginGroup="1" Caption="重新连接(&amp;R)" TooltipText="重新连接" DescriptionText="重新连接到远程主机"/>
+					<Control Class="CXTPControlButton" Id="33039" Caption="全部重新连接(&amp;A)" TooltipText="全部重新连接" DescriptionText="重新连接全部断开的会话"/>
+					<Control Class="CXTPControlButton" Id="32817" Caption="断开(&amp;D)" TooltipText="断开" DescriptionText="从远程主机断开"/>
+					<Control Class="CXTPControlButton" Id="33040" Caption="全部断开(&amp;O)" TooltipText="全部断开" DescriptionText="断开全部连接着的会话"/>
+					<Control Class="CXTPControlButton" Id="32962" BeginGroup="1" Caption="克隆会话(&amp;N)" TooltipText="克隆会话" DescriptionText="克隆当前会话"/>
+					<Control Class="CXTPControlButton" Id="32950" Caption="连接SFTP标签页(&amp;S)" TooltipText="SFTP" DescriptionText="使用当前会话连接新的 SFTP 标签" ShortcutTextAuto="Alt+P"/>
+					<Control Class="CXTPControlButton" Id="33019" BeginGroup="1" Caption="锁定会话(&amp;K)..." TooltipText="锁定/解开会话" DescriptionText="锁定/解开当前会话"/>
+					<Control Class="CXTPControlPopup" Type="2" BeginGroup="1" Caption="打印(&amp;P)" CommandBarId="16777217"/>
+					<Control Class="CXTPControlButton" Id="57606" Caption="打印设置(&amp;U)..." TooltipText="更改打印机和打印选项" DescriptionText="更改打印机和打印选项"/>
+					<Control Class="CXTPControlButton" Id="32818" BeginGroup="1" Caption="记录会话(&amp;L)" TooltipText="把会话记录到一个文件" DescriptionText="把会话记录到一个文件"/>
+					<Control Class="CXTPControlButton" Id="32904" Caption="记录原始会话(&amp;W)" TooltipText="创建一个原始会话记录" DescriptionText="创建一个原始会话记录"/>
+					<Control Class="CXTPControlButton" Id="32806" Caption="跟踪选项(&amp;T)" TooltipText="跟踪 telnet 选项" DescriptionText="跟踪 telnet 选项"/>
+					<Control Class="CXTPControlRecentFileList" Id="57616" BeginGroup="1" Caption="&amp;1 192.168.64.128" TooltipText="连接到远程主机" DescriptionText="连接到远程主机"/>
+					<Control Class="CXTPControlButton" Id="57617" Caption="2 centos0Nat" TooltipText="连接到远程主机" DescriptionText="连接到远程主机"/>
+					<Control Class="CXTPControlButton" Id="57618" Caption="3 centos0H1" TooltipText="连接到远程主机" DescriptionText="连接到远程主机"/>
+					<Control Class="CXTPControlButton" Id="57619" Caption="4 centos0H0" TooltipText="连接到远程主机" DescriptionText="连接到远程主机"/>
+					<Control Class="CXTPControlButton" Id="57620" Caption="5 192.168.230.100" TooltipText="连接到远程主机" DescriptionText="连接到远程主机"/>
+					<Control Class="CXTPControlButton" Id="57621" Caption="6 192.168.230.100 (1)" TooltipText="连接到远程主机" DescriptionText="连接到远程主机"/>
+					<Control Class="CXTPControlButton" Id="57622" Caption="7 192.168.64.201" TooltipText="连接到远程主机" DescriptionText="连接到远程主机"/>
+					<Control Class="CXTPControlButton" Id="57665" BeginGroup="1" Caption="离开(&amp;X)" TooltipText="退出应用程序" DescriptionText="退出应用程序"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777217" Style="4194304" Title="打印(P)">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32811" Caption="自动打印(&amp;A)" TooltipText="自动打印" DescriptionText="切换自动打印"/>
+					<Control Class="CXTPControlButton" Id="32803" Caption="屏幕(&amp;S)" TooltipText="打印屏幕" DescriptionText="打印当前屏幕"/>
+					<Control Class="CXTPControlButton" Id="32804" Caption="选区(&amp;L)" TooltipText="打印选定内容" DescriptionText="打印当前选定内容"/>
+					<Control Class="CXTPControlButton" Id="32930" Caption="走纸(&amp;E)" TooltipText="走纸" DescriptionText="走纸"/>
+					<Control Class="CXTPControlButton" Id="32902" Caption="取消(&amp;C)" TooltipText="取消打印作业" DescriptionText="取消当前打印作业"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777218" Style="4194304" Title="编辑(E)">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="57634" Caption="复制(&amp;C)" TooltipText="复制" DescriptionText="复制选定内容到剪贴板" ShortcutTextAuto="Ctrl+Ins"/>
+					<Control Class="CXTPControlButton" Id="57637" Caption="粘贴(&amp;P)" TooltipText="粘贴" DescriptionText="插入剪贴板内容" ShortcutTextAuto="Shift+Ins"/>
+					<Control Class="CXTPControlButton" Id="32800" Caption="复制并粘贴(&amp;O)" TooltipText="复制并粘贴当前选定内容" DescriptionText="复制并粘贴当前选定内容"/>
+					<Control Class="CXTPControlButton" Id="32871" Caption="粘贴为引用句(&amp;Q)" TooltipText="粘贴为引用句" DescriptionText="已引用表单内容插入剪贴板"/>
+					<Control Class="CXTPControlButton" Id="32825" Caption="全选(&amp;A)" TooltipText="选择回滚缓冲器和当前屏幕" DescriptionText="选择回滚缓冲器和当前屏幕"/>
+					<Control Class="CXTPControlButton" Id="57636" Caption="查找(&amp;F)..." TooltipText="查找" DescriptionText="查找指定的文本"/>
+					<Control Class="CXTPControlButton" Id="32804" BeginGroup="1" Caption="打印选中(&amp;L)" TooltipText="打印选定内容" DescriptionText="打印当前选定内容"/>
+					<Control Class="CXTPControlButton" Id="32973" BeginGroup="1" Caption="转到交互窗口(&amp;G)" TooltipText="转到交互窗口" DescriptionText="转到交互窗口/会话窗口." ShortcutTextAuto="Alt+G"/>
+					<Control Class="CXTPControlButton" Id="32797" BeginGroup="1" Caption="清除回滚(&amp;B)" TooltipText="清除回滚行的内容." DescriptionText="清除回滚行的内容."/>
+					<Control Class="CXTPControlButton" Id="32796" Caption="清除屏幕(&amp;S)" TooltipText="清除当前屏幕的内容." DescriptionText="清除当前屏幕的内容."/>
+					<Control Class="CXTPControlButton" Id="32946" Caption="清除屏幕和回滚(&amp;K)" TooltipText="清除屏幕和回滚" DescriptionText="清除屏幕和回滚的内容"/>
+					<Control Class="CXTPControlButton" Id="32798" BeginGroup="1" Caption="重置(&amp;R)" TooltipText="复位终端仿真器" DescriptionText="复位终端仿真器"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777219" Style="4194304" Title="查看(V)">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32911" Caption="菜单栏(&amp;M)" TooltipText="菜单栏" DescriptionText="显示/隐藏菜单栏"/>
+					<Control Class="CXTPControlButton" Id="32912" Caption="工具栏(&amp;T)" TooltipText="工具栏" DescriptionText="显示/隐藏工具栏"/>
+					<Control Class="CXTPControlButton" Id="32945" Caption="会话标签页(&amp;B)" TooltipText="会话标签" DescriptionText="显示/隐藏会话标签"/>
+					<Control Class="CXTPControlButton" Id="32913" Caption="交互窗口(&amp;C)" TooltipText="交互窗口" DescriptionText="显示/隐藏交互窗口"/>
+					<Control Class="CXTPControlButton" Id="32914" Caption="状态栏(&amp;S)" TooltipText="状态栏" DescriptionText="显示/隐藏状态栏"/>
+					<Control Class="CXTPControlButton" Id="32999" Caption="按钮栏(&amp;U)" TooltipText="按钮栏" DescriptionText="显示/隐藏按钮栏"/>
+					<Control Class="CXTPControlPopup" Type="2" Caption="主题(&amp;E)" CommandBarId="16777220"/>
+					<Control Class="CXTPControlButton" Id="33038" BeginGroup="1" Caption="窗口透明度(&amp;W)" TooltipText="开启/取消alpha透明度" DescriptionText="开启/取消alpha透明度"/>
+					<Control Class="CXTPControlButton" Id="32830" BeginGroup="1" Caption="水平滚动条(&amp;H)" TooltipText="显示/隐藏水平滚动条" DescriptionText="显示/隐藏水平滚动条"/>
+					<Control Class="CXTPControlButton" Id="32828" Caption="垂直滚动条(&amp;V)" TooltipText="显示/隐藏竖直滚动条" DescriptionText="显示/隐藏竖直滚动条"/>
+					<Control Class="CXTPControlButton" Id="32903" BeginGroup="1" Caption="总在最上(&amp;A)" TooltipText="总在最顶端显示窗口" DescriptionText="总在最顶端显示窗口"/>
+					<Control Class="CXTPControlButton" Id="32928" Caption="全屏幕(&amp;F)" TooltipText="在全屏幕和普通模式之间切换" DescriptionText="在全屏幕和普通模式之间切换" ShortcutTextAuto="Alt+Enter"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777220" Style="4194304" Title="主题(E)">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="33021" Caption="阴影(&amp;S)" TooltipText="Shaded" DescriptionText="选择Shaded主题"/>
+					<Control Class="CXTPControlButton" Id="33022" Caption="Office 200&amp;0" TooltipText="Office 2000" DescriptionText="选择Office 2000主题"/>
+					<Control Class="CXTPControlButton" Id="33023" Caption="Office XP(&amp;X)" TooltipText="Office XP" DescriptionText="选择Office XP主题"/>
+					<Control Class="CXTPControlButton" Id="33024" Caption="Office 200&amp;3" TooltipText="Office 2003" DescriptionText="选择Office 2003主题"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777221" Style="4194304" Title="选项(O)">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32814" Caption="会话选项(&amp;S)..." TooltipText="会话选项" DescriptionText="配置会话选项"/>
+					<Control Class="CXTPControlButton" Id="32820" Caption="全局选项(&amp;G)..." TooltipText="配置全局选项" DescriptionText="配置全局选项"/>
+					<Control Class="CXTPControlButton" Id="32822" BeginGroup="1" Caption="自动保存选项(&amp;A)" TooltipText="自动保存会话和全局选项" DescriptionText="自动保存会话和全局选项"/>
+					<Control Class="CXTPControlButton" Id="32794" Caption="现在保存设置(&amp;N)" TooltipText="现在保存选项配置" DescriptionText="现在保存选项配置"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777222" Style="4194304" Title="传输(T)">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32900" Caption="发送ASCII(&amp;S)..." TooltipText="发送 ASCII 文件" DescriptionText="发送 ASCII 文件"/>
+					<Control Class="CXTPControlButton" Id="32901" Caption="接收ASCII(&amp;R)..." TooltipText="接收 ASCII 文件" DescriptionText="接收 ASCII 文件"/>
+					<Control Class="CXTPControlButton" Id="32932" BeginGroup="1" Caption="发送Xmodem(&amp;N)..." TooltipText="使用 Xmodem 发送一个文件" DescriptionText="使用 Xmodem 发送一个文件"/>
+					<Control Class="CXTPControlButton" Id="32933" Caption="接收Xmodem(&amp;C)..." TooltipText="使用 Xmodem 接收一个文件" DescriptionText="使用 Xmodem 接收一个文件"/>
+					<Control Class="CXTPControlButton" Id="33027" BeginGroup="1" Caption="发送Ymodem(&amp;D)..." TooltipText="使用 Ymodem 发送一个文件" DescriptionText="使用 Ymodem 发送一个文件"/>
+					<Control Class="CXTPControlButton" Id="33028" Caption="接收Ymodem(&amp;V)..." DescriptionText="使用Ymodem接收一个文件\r"/>
+					<Control Class="CXTPControlButton" Id="32809" BeginGroup="1" Caption="Zmodem 上传列表(&amp;Z)..." TooltipText="显示 zmodem 文件上传列表" DescriptionText="显示 zmodem 文件上传列表"/>
+					<Control Class="CXTPControlButton" Id="32812" Caption="开始Zmodem 上传(&amp;U)" TooltipText="发送 Zmodem 接收命令" DescriptionText="发送 Zmodem 接收命令"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777223" Style="4194304" Title="脚本(S)">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32878" Caption="执行(&amp;R)..." TooltipText="执行脚本" DescriptionText="执行脚本"/>
+					<Control Class="CXTPControlButton" Id="32879" Caption="取消(&amp;C)" TooltipText="取消脚本" DescriptionText="取消脚本"/>
+					<Control Class="CXTPControlButton" Id="32975" BeginGroup="1" Caption="开始录制脚本(&amp;S)" TooltipText="开始录制脚本" DescriptionText="开始录制脚本"/>
+					<Control Class="CXTPControlButton" Id="32976" Caption="停止录制脚本(&amp;T)..." TooltipText="停止录制脚本" DescriptionText="停止录制脚本"/>
+					<Control Class="CXTPControlButton" Id="32977" Caption="取消录制脚本(&amp;A)" TooltipText="取消录制脚本" DescriptionText="取消录制脚本"/>
+					<Control Class="CXTPControlButton" Id="32880" BeginGroup="1" Caption="最近脚本" TooltipText="执行脚本" DescriptionText="执行脚本"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777224" Style="4194304" Title="工具(L)">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="32849" Caption="键映射编辑器(&amp;K)..." TooltipText="键映射编辑器" DescriptionText="显示键映射编辑器对话框"/>
+					<Control Class="CXTPControlButton" Id="32974" Caption="Termcap 模拟(&amp;T)..." TooltipText="显示termcap模拟对话框" DescriptionText="显示termcap模拟对话框"/>
+					<Control Class="CXTPControlButton" Id="32943" BeginGroup="1" Caption="创建公钥(&amp;C)..." TooltipText="创建公钥" DescriptionText="显示公钥向导"/>
+					<Control Class="CXTPControlButton" Id="32995" Caption="转换私钥到OpenSSH 格式(&amp;O)..." TooltipText="转换私钥为OpenSSH 格式..." DescriptionText="转换VanDyke生成的密钥"/>
+					<Control Class="CXTPControlButton" Id="32996" Caption="从证书导出公钥(&amp;E)..." TooltipText="从证书导出公钥..." DescriptionText="从一个X.509证书导出"/>
+					<Control Class="CXTPControlButton" Id="32944" Caption="公钥助手(&amp;P)..." TooltipText="公钥助手" DescriptionText="显示公钥助手"/>
+				</Controls>
+			</CommandBar>
+			<CommandBar Class="CXTPPopupBar" Type="2" Position="5" BarID="16777225" Style="4194304" Title="帮助(H)">
+				<Controls>
+					<Control Class="CXTPControlButton" Id="57667" Caption="帮助主题(&amp;H)" TooltipText="帮助" DescriptionText="显示帮助主题"/>
+					<Control Class="CXTPControlButton" Id="32934" BeginGroup="1" Caption="CRT 主页(&amp;W)..." TooltipText="显示产品网页" DescriptionText="显示产品网页"/>
+					<Control Class="CXTPControlButton" Id="32935" Caption="订购 CRT(&amp;O)..." TooltipText="从网上订购产品" DescriptionText="从网上订购产品"/>
+					<Control Class="CXTPControlButton" Id="32947" Caption="检查更新(&amp;U)..." TooltipText="检查这个应用程序的新版本" DescriptionText="检查这个应用程序的新版本"/>
+					<Control Class="CXTPControlButton" Id="32954" Caption="VanDyke Software 论坛(&amp;F)..." TooltipText="显示 VanDyke Software 论坛页面" DescriptionText="显示 VanDyke Software 论坛页面"/>
+					<Control Class="CXTPControlButton" Id="32898" BeginGroup="1" Caption="输入许可数据(&amp;E)..." TooltipText="输入许可数据" DescriptionText="输入许可数据"/>
+					<Control Class="CXTPControlButton" Id="57664" BeginGroup="1" Caption="关于CRT(&amp;A)..." TooltipText="关于" DescriptionText="显示程序信息、版本号和版权"/>
+				</Controls>
+			</CommandBar>
+		</CommandBars>
+		<Layout>
+			<DockState Version="33" ScreenSize="1366, 768" Count="2">
+				<BarInfo0 BarId="1" MRUWidth="32767"/>
+				<BarInfo1 BarId="136" Visible="0" MRUWidth="32767" PointPos="0, 27"/>
+			</DockState>
+			<DockBars>
+				<DockBar0 Count="5" Id1="1" Id3="136"/>
+			</DockBars>
+		</Layout>
+		<Shortcuts Schema="33">
+			<Shortcut Id="57634" Key="Ctrl+Ins"/>
+			<Shortcut Id="57637" Key="Shift+Ins"/>
+			<Shortcut Id="32816" Key="Alt+C"/>
+			<Shortcut Id="32897" Key="Alt+Q"/>
+			<Shortcut Id="32953" Key="Ctrl+F4"/>
+			<Shortcut Id="32949" Key="Alt+B"/>
+			<Shortcut Id="32950" Key="Alt+P"/>
+			<Shortcut Id="32928" Key="Alt+Enter"/>
+			<Shortcut Id="57634" Key="Ctrl+Shift+C"/>
+			<Shortcut Id="57637" Key="Ctrl+Shift+V"/>
+			<Shortcut Id="32825" Key="Ctrl+Shift+A"/>
+		</Shortcuts>
+		<Options Theme="4" Schema="33" AlwaysShowFullMenus="1" ShowFullAfterDelay="1" ToolBarScreenTips="1" ToolBarAccelTips="0" LargeIcons="0" Animation="0" SyncFloatingBars="1" ShowExpandButtonAlways="1" IconsSize="0, 0" LargeIconsSize="0, 0" IconsWithShadow="0" UseDisabledIcons="1" UseFadedIcons="0" DblClickFloat="0" ShowTextBelowIcons="0" AltDragCustomization="1" AutoHideUnusedPopups="1" PopupIconsSize="0, 0" KeyboardCuesUse="1" KeyboardCuesShow="2" Customizable="1"/>
+	</CommandBars>
+</Settings>
